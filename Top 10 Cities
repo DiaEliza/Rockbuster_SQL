@@ -1,3 +1,4 @@
+#SQL query of Top 10 Cities within the top 10 Countries in Rockbuster in terms of customer numbers
 SELECT COUNT(A.customer_id) AS customer_count,
 C.city,
 D.country
