@@ -1,3 +1,4 @@
+#Top 5 customers within the top 10 Cities within the top 10 countries in Rockbuster in terms of customer numbers
 SELECT SUM(A.amount) AS ""total amount paid"",
 A.customer_id,
 B.first_name,
